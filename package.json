@@ -14,12 +14,14 @@
   },
   "scripts": {
     "version": "auto-changelog -p && git add CHANGELOG.md",
-    "dev": "node index.js",
+    "dev": "hugo server --bind=0.0.0.0 --disableFastRender",
+    "build:preview": "yarn run build -D -F",
+    "build": "hugo -D -d paper",
+    "env": "env",
+    "hugo-mod": "hugo mod yarn pack",
     "sass": "node-sass -w scss -o css",
     "clean": "shx echo \"yay!\" ",
     "clean:install": "shx rm -rf package-lock.json node_modules ",
-    "start": "node _servers/simple.js",
-    "build": "yarn run",
     "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
     "watch-css": "yarn build-css && sass --load-path=node_modules -w src:dist --style=compressed",
     "module-backup": "mkdir nm-bkup/$(date +\"%d-%m-%Y\") && shx cp -R node_modules nm-bkup/$(date +\"%d-%m-%Y\")",
@@ -27,8 +29,7 @@
     "precheck": "yarn version",
     "prestart": "yarn run clean",
     "release": "standard-version",
-    "release:dry-run": "standard-version --dry-run",
-    "postbuild": "shx rm -rf doks && mv public doks"
+    "release:dry-run": "standard-version --dry-run"
   },
   "dependencies": {
     "auto-changelog": "^2.3.0",
@@ -37,6 +38,7 @@
     "file-saver": "^2.0.5",
     "glob": "^7.2.0",
     "intro.js": "^4.2.2",
+    "introjs": "^0.2.2",
     "markdown-it": "^12.2.0",
     "path": "^0.12.7",
     "sass": "^1.42.1",
