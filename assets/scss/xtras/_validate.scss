@@ -1,0 +1,16 @@
+.hidden {
+	//visibility: hidden;
+    display: none;
+}
+
+.disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.error {
+	font-weight: bold;
+	color: $grey-nurse;
+	background: $purple-heart;
+	padding: 8px;
+}

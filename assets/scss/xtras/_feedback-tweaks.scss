@@ -1,0 +1,22 @@
+/* ------------------------------ */
+/* Run by request and comments
+    illustrate purpose for tweak */
+/* ------------------------------ */
+
+// make top decorator larger
+.navbar {
+    margin-top: 9px !important;
+}
+
+.header-bar {
+    border-top: 9px solid !important;
+}
+
+.spacer {
+    // height: 6.08px;
+    height: 8.08px;
+}
+
+.footer {
+    width: 100%;
+}

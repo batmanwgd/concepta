@@ -5,7 +5,7 @@ lastmod: 2021-10-11T18:20:34-04:00
 tags: "dictionary"
 images: []
 menu:
-  home:
+  dictionary:
     parent: "dictionary"
 weight: 110
 toc: true

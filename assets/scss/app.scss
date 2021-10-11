@@ -1,0 +1,66 @@
+/** Importing External Fonts **/
+@import url('https://fonts.googleapis.com/css2?family=Petrona:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/** Import Bootstrap functions */
+@import "bootstrap/scss/functions";
+
+/** Import theme variables */
+@import "common/variables";
+
+/** Import Bootstrap */
+@import "bootstrap/scss/bootstrap";
+
+/** Import highlight.js */
+// @import "highlight.js/scss/dracula";
+
+/** Import KaTeX */
+@import "katex/dist/katex";
+
+/** Import Tooltip functions */
+@import "vendor/tooltip";
+
+/** Importing Modal SCSS/CSS Only Styles **/
+@import "xtras/modal";
+
+/** Import theme styles */
+// @import "common/fonts";
+@import "common/global";
+@import "common/dark";
+@import "components/doks";
+// @import "components/syntax";
+@import "components/code";
+@import "components/alerts";
+@import "components/buttons";
+@import "components/comments";
+@import "components/forms";
+@import "components/images";
+@import "components/search";
+@import "components/tables";
+@import "layouts/footer";
+@import "layouts/header";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/sidebar";
+
+/** Import Last Minute Hacks & Add-ons */
+// to convert to full features later on
+@import "xtras/emphasis";
+@import "xtras/feedback-tweaks";
+
+/** Importing Code Highlighter - Prism **/
+// @import "xtras/prism";
+
+/** Importing Validation Styles **/
+@import "xtras/validate";
+
+/** Importing Tours **/
+@import "vendor/shepherd";
+
+/** Importing Emoji Scale **/
+@import "xtras/emoji-scale";
+@import "xtras/emoji-scale-CSS"; // bandaid
+

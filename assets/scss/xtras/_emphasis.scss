@@ -1,0 +1,97 @@
+.hint, .hints {
+    text-decoration: underline;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: from-font;
+    // font-style: italic;
+}
+
+.hint {
+    text-decoration-color: #848F9C;
+}
+
+.hints {
+    text-decoration-color: $purple-heart;
+    text-decoration-thickness: 2px;
+}
+
+.coming-soon {
+    font-weight: bold;
+    font-style: italic;
+    color: $science;
+}
+
+.handles {
+    color: $shamrock-drk;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 3;
+}
+
+.slack {
+    color: $purple-heart;
+}
+
+.canvas-link {
+    color: $grey-nurse;
+
+    &:hover, &:active, &:focus {
+        color: $science
+    }
+
+    &:visited {
+        color: $purple-heart-highlight;
+    }
+}
+
+.absolute-center {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+  #jsForm > span.mathResults {
+    padding-top: 1em;
+    padding-bottom: 0.8em;
+    display: inline-block;
+}
+
+.navbar-brand {
+    //font-family: 'Catamaran', sans-serif;
+    font-family: 'Playfair Display', serif;
+}
+
+// .home-cta {
+//     font-family: 'Playfair Display', serif;
+// }
+
+
+nav.doks-links h3 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 600p;
+    //font-family: 'Catamaran', sans-serif;
+    //font-family: 'Petrona', serif;
+    font-size: $font-size-lg;
+}
+
+.shamrock-dark {
+    background: $shamrock-drk !important;
+}
+
+.teal-doks-dark {
+    background: $teal-doks-dark !important;
+    color: $grey-nurse;
+
+    &:hover, &:active, &:focus {
+        background: $shamrock-trans !important;
+    }
+}
+
+button.teal-doks-dark.shepherd-button {
+    background: $teal-doks-dark !important;
+    color: $grey-nurse;
+
+    &:hover, &:active, &:focus {
+        background: $shamrock-trans !important;
+    }
+}
