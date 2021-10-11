@@ -1,23 +1,22 @@
 ---
-title: "My 1st post"
-date: 2020-09-15T11:30:03+00:00
+title: "Feedback"
+date: 2021-10-11T18:15:29-04:00
+draft: false
 # weight: 1
 # aliases: ["/intro"]
-tags: ["intro"]
-author: "Me"
+tags: ["feedback"]
+author: "BatmanWGD"
 # author: ["Me", "You"] # multiple authors
 showToc: true
-TocOpen: false
-draft: false
+TocOpen: true
 hidemeta: false
 comments: false
 description: "Desc Text."
 canonicalURL: "https://canonical.url/to/page"
-disableHLJS: true # to disable highlightjs
+disableHLJS: false # to disable highlightjs
 disableShare: false
-disableHLJS: false
 hideSummary: false
-searchHidden: true
+searchHidden: false
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -32,3 +31,5 @@ editPost:
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 ---
+
+## Submit Feedback

@@ -1,7 +1,19 @@
-baseURL: "https://concepta.netlify.app/"
-title: ExampleSite
+baseURL: "/"
+title: TEXP Wiki
 paginate: 5
 theme: PaperMod
+canonifyURLs: false
+disableHugoGeneratorInject: true
+enableEmoji: true
+enableGitInfo: true
+enableInlineShortcodes: true
+enableMissingTranslationPlaceholders: true
+enableRobotsTXT: true
+languageCode: "en-US"
+footnoteReturnLinkContents: '↩'
+paginate: 7
+rssLimit: 10
+publishDir: 'paper'
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -16,16 +28,18 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
-    keywords: [Blog, Portfolio, PaperMod]
-    author: Me
+    title: TEXP Wiki
+    titleSeparator: "-"
+    titleAddition: "Crushing it on Documentation!"
+    description: "A documentation powerhouse & reliable resource enabling YOU to be a total expert in our TE platform! 🤓"
+    keywords: [Blog, Portfolio, PaperMod, Total Expert, Wiki, Knowledge Base]
+    author: BatmanWGD
     # author: ["Me", "You"] # multiple authors
     images: ["<link or path of image for opengraph, twitter-cards>"]
-    DateFormat: "January 2, 2006"
+    DateFormat: "January 2, 2021"
     defaultTheme: auto # dark, light
     disableThemeToggle: false
-
+    disableAliases: true
     ShowReadingTime: true
     ShowShareButtons: true
     ShowPostNavLinks: true
@@ -34,10 +48,32 @@ params:
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
-    hidemeta: false
+    hidemeta: true
     hideSummary: false
     showtoc: false
     tocopen: false
+    ## Open Graph + Twitter Cards
+    images: ["doks.png"]
+    twitterSite: "batmanwgd"
+    twitterCreator: "batmanwgd"
+    facebookAuthor: "batmanwgd"
+    facebookPublisher: "batmanwgd"
+    ogLocale: "en_US"
+    ## JSON-LD
+    schemaType: "Organization"
+    schemaLogo: "logo-doks.png"
+    schemaTwitter: "https://twitter.com/batmanwgd"
+    schemaLinkedIn: "https://www.linkedin.com/in/stddef/"
+    schemaGitHub: "https://github.com/batmanwgd"
+    schemaSection: "blog"
+    ## Sitelinks Search Box
+    siteLinksSearchBox: false
+    ## Chrome Browser
+    themeColor: "#fff"
+    # Footer
+    love: "Made with  💖 by <a href=\"https://github.com/batmanwgd/\">@batmanwgd</a>"
+    footer: "Powered by <a href=\"https://pages.github.com/\">GitHub</a>, <a href=\"https://gohugo.io/\">Hugo</a>, and <a href=\"https://getdoks.org/\">Doks</a>"
+
 
     assets:
         # disableHLJS: true # to disable highlight.js
@@ -55,8 +91,8 @@ params:
 
     # profile-mode
     profileMode:
-        enabled: false # needs to be explicitly set
-        title: ExampleSite
+        enabled: true # needs to be explicitly set
+        title: TEXP Wiki
         subtitle: "This is subtitle"
         imageUrl: "<img location>"
         imageWidth: 120
@@ -71,7 +107,7 @@ params:
     # home-info mode
     homeInfoParams:
         Title: "Hi there \U0001F44B"
-        Content: Welcome to my blog
+        Content: Welcome to TEXP
 
     socialIcons:
         - name: twitter
@@ -119,17 +155,28 @@ menu:
           name: tags
           url: /tags/
           weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: dictionary
+          name: dictionary
+          url: /dictionary/
           weight: 30
+        - identifier: Concepta
+          name: concepta.netlify.app
+          url: https://concepta.netlify.app
+          weight: 40
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
-# pygmentsUseClasses: true
-# markup:
-#     highlight:
-#         # anchorLineNos: true
-#         codeFences: true
-#         guessSyntax: true
-#         lineNos: true
-#         style: monokai
+pygmentsUseClasses: true
+markup:
+    highlight:
+        anchorLineNos: true
+        hl_Lines: ""
+        lineNoStart: 1
+        noClasses: false
+        codeFences: false
+        guessSyntax: true
+        lineNos: true
+        style: monokai
+        tabWidth: 4
+
+build:
+  writeStats: true
 
