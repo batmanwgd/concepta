@@ -1,3 +1,8 @@
+const feather = require('feather-icons');
+feather.icons.x;
+feather.icons.x.toSvg();
+// feather.icons.x.toSvg({ class: 'foo bar', 'stroke-width': 1, color: 'red' });
+
 var http = require("http"),
     url = require("url"),
     path = require("path"),
