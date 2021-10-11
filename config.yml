@@ -1,4 +1,4 @@
-baseURL: "/"
+baseURL: "https://concepta.netlify.app/paper/"
 title: TEXP Wiki
 paginate: 5
 theme: PaperMod
