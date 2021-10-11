@@ -20,6 +20,7 @@
       "meta",
       "nav",
       "noscript",
+      "p",
       "path",
       "script",
       "span",
@@ -52,6 +53,7 @@
       "share-buttons",
       "social-icons",
       "terms-tags",
+      "text-center",
       "top-link"
     ],
     "ids": [
