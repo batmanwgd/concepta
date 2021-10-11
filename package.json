@@ -1,0 +1,65 @@
+{
+  "name": "concepta",
+  "version": "1.0.0",
+  "description": "Concept A for TEXP",
+  "main": "index.js",
+  "repository": "git@github.com:batmanwgd/concepta.git",
+  "author": "Kaska Miskolczi <kaska.miskolczi@totalexpert.com>",
+  "license": "MIT",
+  "auto-changelog": {
+    "output": "HISTORY.md",
+    "template": "keepachangelog",
+    "unreleased": true,
+    "commitLimit": false
+  },
+  "scripts": {
+    "version": "auto-changelog -p && git add CHANGELOG.md",
+    "dev": "node index.js",
+    "sass": "node-sass -w scss -o css",
+    "clean": "shx echo \"yay!\" ",
+    "clean:install": "shx rm -rf package-lock.json node_modules ",
+    "start": "node _servers/simple.js",
+    "build": "yarn run",
+    "build-css": "sass -w --load-path=node_modules src:dist --style=compressed",
+    "watch-css": "yarn build-css && sass --load-path=node_modules -w src:dist --style=compressed",
+    "module-backup": "mkdir nm-bkup/$(date +\"%d-%m-%Y\") && shx cp -R node_modules nm-bkup/$(date +\"%d-%m-%Y\")",
+    "prebuild": "yarn run clean",
+    "precheck": "yarn version",
+    "prestart": "yarn run clean",
+    "release": "standard-version",
+    "release:dry-run": "standard-version --dry-run",
+    "postbuild": "shx rm -rf doks && mv public doks"
+  },
+  "dependencies": {
+    "auto-changelog": "^2.3.0",
+    "blob": "^0.1.0",
+    "cross-blob": "^3.0.0",
+    "file-saver": "^2.0.5",
+    "glob": "^7.2.0",
+    "intro.js": "^4.2.2",
+    "markdown-it": "^12.2.0",
+    "path": "^0.12.7",
+    "sass": "^1.42.1",
+    "shelljs": "^0.8.4",
+    "shepherd.js": "^8.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "clipboard": "^2.0.8",
+    "flexsearch": "^0.7.21",
+    "glob-parent": "^6.0.2",
+    "markdownlint-cli": "^0.29.0",
+    "mermaid": "^8.13.2",
+    "shx": "^0.3.3",
+    "standard-version": "^9.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "typanion": "^3.5.0",
+    "update-notifier": "^5.1.0"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
