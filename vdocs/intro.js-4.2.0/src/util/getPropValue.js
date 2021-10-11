@@ -1,6 +1,6 @@
 /**
  * Get an element CSS property on the page
- * Thanks to JavaScript Kit: http://www.javascriptkit.com/dhtmltutors/dhtmlcascade4.shtml
+ * Thanks to JavaScript Kit: https://www.javascriptkit.com/dhtmltutors/dhtmlcascade4.shtml
  *
  * @api private
  * @method _getPropValue

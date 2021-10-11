@@ -17,7 +17,7 @@ describe("addClass", () => {
   });
 
   test("should append when element is SVG", () => {
-    const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    const el = document.createElementNS("https://www.w3.org/2000/svg", "svg");
     el.setAttribute("class", "firstClass");
 
     addClass(el, "secondClass");
@@ -26,7 +26,7 @@ describe("addClass", () => {
   });
 
   test("should not append duplicate classNames to svg elements", () => {
-    const el = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+    const el = document.createElementNS("https://www.w3.org/2000/svg", "svg");
     el.setAttribute("class", "firstClass");
 
     addClass(el, "firstClass");

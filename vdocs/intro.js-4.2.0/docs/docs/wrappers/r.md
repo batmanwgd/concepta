@@ -5,7 +5,7 @@ categories: wrappers
 permalink: /wrappers/R
 ---
 
-You can use IntroJs with [R](https://cran.r-project.org/) for [Shiny applications](http://shiny.rstudio.com/) with the [rintrojs package on CRAN](https://cran.r-project.org/web/packages/rintrojs/).
+You can use IntroJs with [R](https://cran.r-project.org/) for [Shiny applications](https://shiny.rstudio.com/) with the [rintrojs package on CRAN](https://cran.r-project.org/web/packages/rintrojs/).
 
 Github: [https://github.com/carlganz/rintrojs](https://github.com/carlganz/rintrojs)
 

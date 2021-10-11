@@ -1,5 +1,5 @@
 // Require Gulp
-var gulp 		= require('gulp'); // https://github.com/gulpjs/gulp | http://gulpjs.com/
+var gulp 		= require('gulp'); // https://github.com/gulpjs/gulp | https://gulpjs.com/
 
 // Require Gulp Plugins
 var less		= require('gulp-less'), 			// https://github.com/plus3network/gulp-less

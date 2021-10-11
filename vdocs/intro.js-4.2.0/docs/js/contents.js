@@ -215,7 +215,7 @@ contents.id = function (articleName, formatId) {
 /**
  * Format text into an ID/anchor safe value.
  *
- * @see http://stackoverflow.com/a/1077111/368691
+ * @see https://stackoverflow.com/a/1077111/368691
  * @param {String} str
  * @return {String}
  */
@@ -372,7 +372,7 @@ contents.indexOffset = function (elements) {
 /**
  * Find the nearest value to the needle in the haystack and return the value index.
  *
- * @see http://stackoverflow.com/a/26366951/368691
+ * @see https://stackoverflow.com/a/26366951/368691
  * @param {Number} needle
  * @param {Array} haystack
  * @return {Number}

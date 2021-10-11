@@ -6,7 +6,7 @@ description: "Intro.js - Better introductions for websites and features with a s
 keywords: "intro, introjs, doc42, documentation, doc, usablica"
 
 baseurl: "/docs" # the subpath of your doc, e.g. /doc
-url: "http://introjs.com" # the base hostname & protocol for your site
+url: "https://introjs.com" # the base hostname & protocol for your site
 twitter_username: usablica
 github_username:  usablica
 

@@ -190,7 +190,7 @@ async function validate() {
 
     xhr.open("POST", "https://postmail.invotes.com/send?");
     xhr.setRequestHeader("Access-Control-Allow-Credentials", "true");
-    xhr.setRequestHeader("Access-Control-Allow-Origin", "http://localhost:1313");
+    xhr.setRequestHeader("Access-Control-Allow-Origin", "https://localhost:1313");
     xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 
     xhr.send(msg);

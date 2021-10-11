@@ -8,7 +8,7 @@ permalink: /support
 If you can't find your answer from the documentation and examples page, you can use the support to find the appropriate solution.
 
 #### Community support
-If you are using the open-source license of Introjs, you can use [Github issues](https://github.com/usablica/intro.js/issues) or [Stackoverflow](http://stackoverflow.com/questions/tagged/intro.js) to ask your question and get an answer from the community.
+If you are using the open-source license of Introjs, you can use [Github issues](https://github.com/usablica/intro.js/issues) or [Stackoverflow](https://stackoverflow.com/questions/tagged/intro.js) to ask your question and get an answer from the community.
 
 
 #### Introjs support

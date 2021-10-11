@@ -1,9 +1,9 @@
 /*
  * YouTube TV
  *
- * Copyright 2013, Jacob Kelley - http://jakiestfu.com/
+ * Copyright 2013, Jacob Kelley - https://jakiestfu.com/
  * Released under the MIT Licence
- * http://opensource.org/licenses/MIT
+ * https://opensource.org/licenses/MIT
  *
  * Github:  
  * Version: 3.0.3

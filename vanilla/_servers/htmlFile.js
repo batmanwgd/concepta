@@ -40,7 +40,7 @@ fsPromise.readFile(`${homePath}`)
     .then(contents => {
         indexFile = contents;
         server.listen(port, host, () => {
-            console.log(`Server is running on http://${host}:${port}`);
+            console.log(`Server is running on https://${host}:${port}`);
         });
     })
     .catch(err => {
@@ -49,5 +49,5 @@ fsPromise.readFile(`${homePath}`)
     });
 
 /*server.listen(port, host, () => {
-    console.log(`Server is running on http://${host}:${port}`);
+    console.log(`Server is running on https://${host}:${port}`);
 });*/

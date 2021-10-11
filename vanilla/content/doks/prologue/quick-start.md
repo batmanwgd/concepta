@@ -72,7 +72,7 @@ npm install
 npm run start
 ```
 
-Doks will start the Hugo development webserver accessible by default at `http://localhost:1313`. Saved changes will live reload in the browser.
+Doks will start the Hugo development webserver accessible by default at `https://localhost:1313`. Saved changes will live reload in the browser.
 
 ## Other commands
 

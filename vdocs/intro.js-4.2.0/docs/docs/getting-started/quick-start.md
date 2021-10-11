@@ -19,7 +19,7 @@ After installing Introjs, add `data-intro` and `data-step` to your HTML elements
 For example:
 
 ```html
-<a href='http://example.com/' data-intro='Hello step one!'></a>
+<a href='https://example.com/' data-intro='Hello step one!'></a>
 ````
 
 See all attributes [here](https://github.com/usablica/intro.js/wiki/Documentation/#attributes).
@@ -50,7 +50,7 @@ runs the introduction only for elements with `class='introduction-farm'`.
 For example:
 
 ```html
-<a href='http://example.com/' data-hint='Hello step one!'></a>
+<a href='https://example.com/' data-hint='Hello step one!'></a>
 ````
 
 

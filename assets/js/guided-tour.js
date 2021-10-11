@@ -239,7 +239,7 @@ const tour = new Shepherd.Tour({
           page.includes('https://texp.wiki'), 
           page.includes('https://texp.netlify.app')
         ],
-        modals = ['/', 'https://texp.wiki/', 'https://texp.netlify.app/', 'https://texp.wiki', 'https://texp.netlify.app', 'localhost:1313/', 'localhost:1313', 'http://localhost:1313/'],
+        modals = ['/', 'https://texp.wiki/', 'https://texp.netlify.app/', 'https://texp.wiki', 'https://texp.netlify.app', 'localhost:1313/', 'localhost:1313', 'https://localhost:1313/'],
         confirmPass = 'Tour script should be running 😎',
         confirmFail = 'Tour script should not be running 🧐';
     var result;

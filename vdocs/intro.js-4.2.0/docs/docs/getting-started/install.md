@@ -23,8 +23,8 @@ You can obtain your local copy of Intro.js from:
 Download it from CDN:
 
   - [CDNJS](https://cdnjs.com/libraries/intro.js)
-  - [JSDelivr](http://www.jsdelivr.com/projects/intro.js)
-  - [BootCDN](http://www.bootcdn.cn/intro.js/)
+  - [JSDelivr](https://www.jsdelivr.com/projects/intro.js)
+  - [BootCDN](https://www.bootcdn.cn/intro.js/)
 
 ##### Bower
 

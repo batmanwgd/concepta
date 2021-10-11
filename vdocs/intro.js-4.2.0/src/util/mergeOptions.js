@@ -1,6 +1,6 @@
 /**
  * Overwrites obj1's values with obj2's and adds obj2's if non existent in obj1
- * via: http://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
+ * via: https://stackoverflow.com/questions/171251/how-can-i-merge-properties-of-two-javascript-objects-dynamically
  *
  * @param obj1
  * @param obj2

@@ -1081,7 +1081,7 @@
 	// Module name: Custom Scrollbar
 	// Dependencies: jquery.jscrollpane.js, jquery.mousewheel-3.0.6.js
 	// Docs: https://github.com/vitch/jScrollPane
-	// Settings: http://jscrollpane.kelvinluck.com/settings.html
+	// Settings: https://jscrollpane.kelvinluck.com/settings.html
 	(function(){
 		// Select the custom scrollable areas
 		var customScrollbars = $('.js-custom-scrollbar');
