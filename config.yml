@@ -4,6 +4,9 @@ paginate: 5
 theme: PaperMod
 canonifyURLs: false
 disableHugoGeneratorInject: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
 enableEmoji: true
 enableGitInfo: true
 enableInlineShortcodes: true
@@ -44,7 +47,7 @@ params:
     ShowShareButtons: true
     ShowPostNavLinks: true
     ShowBreadCrumbs: true
-    ShowCodeCopyButtons: false
+    ShowCodeCopyButtons: true
     disableSpecial1stPost: false
     disableScrollToTop: false
     comments: false
@@ -109,6 +112,12 @@ params:
     homeInfoParams:
         Title: "Hi there \U0001F44B"
         Content: Welcome to TEXP
+    
+    outputs:
+        home:
+            - HTML
+            - RSS
+            - JSON
 
     socialIcons:
         - name: twitter
@@ -167,6 +176,9 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+    goldmark:
+        renderer:
+            unsafe: true
     highlight:
         anchorLineNos: true
         hl_Lines: ""
@@ -177,6 +189,24 @@ markup:
         lineNos: true
         style: monokai
         tabWidth: 4
+        
+privacy:
+    vimeo:
+        disabled: false
+        simple: true
+
+    twitter:
+        disabled: false
+        enableDNT: true
+        simple: true
+
+    instagram:
+        disabled: false
+        simple: true
+
+    youtube:
+        disabled: false
+        privacyEnhanced: true
 
 build:
   writeStats: true
