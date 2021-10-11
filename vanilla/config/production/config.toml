@@ -1,0 +1,4 @@
+baseurl = "https://batmanwgd.vanilla/doks/"
+canonifyURLs = true
+[build]
+  writeStats = true
